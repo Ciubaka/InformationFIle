@@ -398,7 +398,7 @@ namespace InformationFIle.Controllers
     };
 
             _context.Information.Add(inf1);
-            // await _context.SaveChangesAsync();
+            // await _context.SaveChangesAsync() ;
             await _context.SaveChangesAsync();
 
             foreach (FileInfo file in dirInfo.EnumerateFiles())
